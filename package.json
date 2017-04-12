@@ -1,0 +1,35 @@
+{
+  "name": "MEAN_App_with_Oops_Auth",
+  "version": "1.0.0",
+  "description": "Angular Node Express Mongo with Authentication and simple logger & webpack.This project also uses ES6 classes and basic OOPS concept.",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "npm run build:live",
+    "build:live": "nodemon -w"
+  },
+  "keywords": [],
+  "author": "Sukesh Shetty",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.0.35",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.3",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "nodemon": "^1.11.0",
+    "ts-loader": "^2.0.3",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  }
+}
